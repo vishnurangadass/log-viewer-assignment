@@ -1,0 +1,39 @@
+.sidebar {
+  position: fixed;
+  border: #252525 10px;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 250px;
+  background-color: #b6bbc4;
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: x-large;
+}
+.navbar {
+  text-decoration: none;
+  color: rgb(65, 63, 63);
+  font-size: 1rem;
+}
+.navbar:hover {
+  width: 100%;
+  color: rgb(12, 134, 248);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.dropdownmenu {
+  text-decoration: none;
+  border: none;
+  margin-bottom: 8rem;
+}
+.menuitems {
+  background-color: transparent;
+  border: none;
+}
+.content {
+  background-color: #29283a;
+  margin-left: 250px;
+}
